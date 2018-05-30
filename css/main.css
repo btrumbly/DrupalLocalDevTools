@@ -1,0 +1,38 @@
+.bg {
+  background: #4a4a4a !important;
+}
+.circle {
+  border-radius: 50%;
+  background: #0073ba;
+  height: 240px;
+  width: 240px;
+  margin: 45px 0 20px;
+  position: relative;
+  cursor: pointer;
+}
+.circle:hover {
+  background: #016cae;
+}
+.circle img {
+  position: absolute;
+  top: 55px;
+  left: 60px;
+}
+.rightCheck {
+  position: absolute;
+  right: 88px;
+  top: 298px;
+}
+.leftCheck {
+  position: absolute;
+  top: 298px;
+  left: 268px;
+}
+.alert {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+.none {
+  display: none !important;
+}

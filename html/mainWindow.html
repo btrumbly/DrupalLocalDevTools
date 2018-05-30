@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/loader.css">
+  <title>Drupal Dev Tools</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <body>
+    <nav class="navbar navbar-light bg">
+      <a class="navbar-brand" style="color: #ffffff; font-size: 24px;">
+        <img src="../img/icon.svg" width="auto" height="40" class="d-inline-block align-top" style="margin-right: 10px;"> Drupal Dev Tools
+      </a>
+      <button type="button" class="btn btn-light" onclick="mainProcess.openSettings();">Settings</button>
+    </nav>
+    <div class="row">
+      <div class="col">
+        <div class="loader none" id="syncLoader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+          </svg>
+        </div>
+        <div class="circle" style="margin-left: 70px;" id="sync">
+          <img src="../img/dwnld.svg" style="left: 65px; top: 40px;" id="dbIcon">
+        </div>
+        <div class="lastText" style="margin-left: 145px;">Last Synced</div>
+        <img src="../img/check.svg" class="leftCheck none" id="syncCheck">
+        <div id="lastSynced" style="margin-left: 70px;"></div>
+      </div>
+      <div class="col">
+        <div class="loader none" style="left: 20px;" id="downloadLoader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+          </svg>
+        </div>
+        <div class="circle" style="margin-left: 25px;" id="download" onclick="mainProcess.startSFTP()">
+          <img src="../img/download.svg">
+        </div>
+        <div class="lastText" style="margin-left: 83px;">Last Downloaded</div>
+        <img src="../img/check.svg" class="rightCheck none" id="downloadCheck">
+        <div id="lastDownload" style="margin-left: 25px;"></div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="alert none" role="alert" id="message"></div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+
+</html>

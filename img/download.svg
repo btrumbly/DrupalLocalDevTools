@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="135px" viewBox="0 0 119 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <text id="Files" font-family="Roboto-Regular, Roboto" font-size="25" font-weight="normal" fill="#FFFFFF">
+                <tspan x="35" y="134">Files</tspan>
+            </text>
+            <g id="ic_folder_black_24px" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M47.6,0 L11.9,0 C5.355,0 0.0595,5.34375 0.0595,11.875 L0,83.125 C0,89.65625 5.355,95 11.9,95 L107.1,95 C113.645,95 119,89.65625 119,83.125 L119,23.75 C119,17.21875 113.645,11.875 107.1,11.875 L59.5,11.875 L47.6,0 Z" id="Shape"></path>
+            </g>
+            <g id="ic_file_download_black_24px" transform="translate(38.000000, 27.000000)" fill="#0073BA" fill-rule="nonzero">
+                <path d="M46,19.4117647 L32.8571429,19.4117647 L32.8571429,0 L13.1428571,0 L13.1428571,19.4117647 L0,19.4117647 L23,42.0588235 L46,19.4117647 Z M0,48.5294118 L0,55 L46,55 L46,48.5294118 L0,48.5294118 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

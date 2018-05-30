@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Git Reference</title>
+    <link rel="stylesheet" href="../css/gitHelp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body> 
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" style="color: #495057; font-size: 24px;">
+            <img src="../img/icon.svg" width="auto" height="30" class="d-inline-block align-top" style="margin-right: 10px;"> Drupal Dev Tools Settings
+        </a>
+    </nav>
+    <div class="container" style="margin-top: 20px">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <h6>Basic Git Reference</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Clone</div>
+                          <div class="code">git clone https://github.com/[account]/[repo].git</div>
+                          <div class="ex">git clone https://github.com/usft/usfleettracking.com.git</div>
+                          <div class="info">Git clone will clone the repo to your local disk.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Show Branch</div>
+                          <div class="code">git branch</div>
+                          <div class="info">Git branch show all the branches for the repo.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">New Branch</div>
+                          <div class="code">git branch [new branch name]</div>
+                          <div class="ex">git branch bugFix</div>
+                          <div class="info">This will create a new branch on your local repo.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Switch Branch</div>
+                          <div class="code">git checkout [branch name]</div>
+                          <div class="ex">git checkout bugFix</div>
+                          <div class="info">This will change your branch.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Status</div>
+                          <div class="code">git status</div>
+                          <div class="info">This will show the current branch you are on as well as any changes to your branch or repo. Red will show items that have been changed. Green will show items added to your commit.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Add</div>
+                          <div class="code">git add .</div>
+                          <div class="info">This will add all un staged changes to your commit. You can also just add a single file by passing the file name in place of the period.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Commit</div>
+                          <div class="code">git commit -m "[description of your commit]"</div>
+                          <div class="ex">git commit -m "bug fix for seo page'</div>
+                          <div class="info">This will create a new commit to your local disk.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Push</div>
+                          <div class="code">git push</div>
+                          <div class="info">This will push your commit up to github. Note: if it is a locally created branch you will be prompted to enter an alternative command. Copy and paste this and hit return.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div style="font-weight: 600;">Pull</div>
+                          <div class="code">git pull</div>
+                          <div class="info">This will pull all changes down from github to your local copy. It is a good idea to do this on your master branch before starting work or creating a new branch.</div>
+                        </li>
+                        <li class="list-group-item">
+                          <div>More git reference can be found here https://git-scm.com/docs</div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+      </div>
+    </form>
+    </div>
+</body>
+
+</html>

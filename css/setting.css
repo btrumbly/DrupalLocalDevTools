@@ -1,0 +1,9 @@
+h6 {
+  color: #808182 !important;
+  font-weight: 100 !important;
+}
+button {
+  float: right;
+  margin-top: 45px !important;
+  width: 120px;
+}
